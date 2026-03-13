@@ -1,5 +1,5 @@
-title: Multimodal Interaction in Face-to-Face Interactions
-description: EMNLP Workshop on Multimodal Interaction in Face-to-Face Interactions
+title: SWiFT-MLP
+description: Semi-Automated Workflows for Facilitating Multimodal Language Processing
 url: ""
 baseurl: ""
 
@@ -17,9 +17,8 @@ exclude:
   - vendor
 
 social:
-  email: mint.organizers@gmail.com
+  email: dr.esam.ghaleb@gmail.com
 
 editions:
   - year: 2026
-    location: EMNLP 2026, Budapest, Hungary
- 
+    location: MMSYM 2026, Leuven, Belgium
