@@ -3,7 +3,7 @@
     <div class="row justify-content-center">
       <div class="col-md-8">
         <div class="section-heading">
-          <h3>Call for papers</h3>
+          <h3>Registration</h3>
           <div class="separator-div"></div>
         </div>
 
@@ -11,114 +11,30 @@
           {{ page.cfp.intro | markdownify }}
         {% else %}
         <p>
-          We invite submissions to <strong>MINT: Multimodal Interaction in Face-to-Face Dialogue</strong>,
-          a workshop on modelling, generating, and understanding multimodal verbal and non-verbal
-          behaviour in face-to-face interaction.
+          Registration for <strong>SWiFT-MLP: Semi-Automated Workflows for Facilitating Multimodal Language Processing</strong>
+          will be available through the link below.
         </p>
         <p>
-          MINT brings together researchers in computational linguistics, NLP, computer vision,
-          HCI, robotics, and cognitive science working on multimodal communication, including
-          language, gesture, gaze, facial expression, prosody, body pose, embodied agents,
-          multimodal datasets, and evaluation.
+          A small registration fee will be charged to help cover food, drinks
+          (coffee and tea), and snacks during the workshop.
+        </p>
+        <p>
+          Space is limited, and we will accept a maximum of <strong>20 participants</strong>.
+          We therefore encourage early registration.
         </p>
         {% endif %}
 
-        <h5 id="dates">Important dates</h5>
+        {% if page.cfp.registration_link %}
         <p>
-          Please consult the workshop website and submission portals for the most up-to-date
-          deadlines and timezone details.
-        </p>
-
-        <div class="row justify-content-center">
-          <div class="col-md-11">
-            <table class="table table-striped table-sm">
-              <tbody>
-                {% for date in page.cfp.dates %}
-                  {% if date.event contains "submission" %}
-                  <tr class="highlight-row">
-                  {% else %}
-                  <tr>
-                  {% endif %}
-                    <td class="font-weight-bold" style="width: 40%">{{ date.event }}</td>
-                    <td style="width: 40%">{{ date.date }}</td>
-                  </tr>
-                {% endfor %}
-              </tbody>
-            </table>
-          </div>
-        </div>
-
-        <h5>Submission information</h5>
-
-        <h6>Submission routes and portals</h6>
-        <ul>
-          <li>
-            <strong>ARR commitment route.</strong>
-            Authors may submit through the current
-            <a href="https://aclrollingreview.org/dates" target="_blank">ACL Rolling Review (ARR) cycle</a>
-            and commit their paper to MINT. Please consult the
-            <a href="https://aclrollingreview.org/authors" target="_blank">ARR author guidelines</a>
-            for current procedures and requirements.
-          </li>
-          <li>
-            <strong>Direct submission route.</strong>
-            MINT will also accept direct submissions. This route will have a separate deadline,
-            and its dedicated OpenReview portal will be announced soon.
-          </li>
-        </ul>
-
-        {% if page.openreview %}
-        <p>
-          The ARR commitment portal is available on
-          <a href="{{ page.openreview }}" class="btn btn-custom btn-xs" target="_blank">OpenReview</a>.
+          <a href="{{ page.cfp.registration_link }}" class="btn btn-custom btn-xs" target="_blank">
+            Register here
+          </a>
         </p>
         {% endif %}
 
-        <p>
-          Papers should be prepared using the official
-          <a href="https://acl-org.github.io/ACLPUB/formatting.html" target="_blank">ACL formatting guidelines</a>
-          and the official
-          <a href="https://github.com/acl-org/acl-style-files" target="_blank">ACL style files</a>.
-        </p>
-
-        <h6 id="submission-format">Paper categories and length</h6>
-        <ul>
-          <li>
-            <strong>Archival papers.</strong>
-            Original, unpublished research to appear in the workshop proceedings.
-            These may be submitted as <strong>long papers</strong> (up to 8 pages plus references)
-            or <strong>short papers</strong> (up to 4 pages plus references).
-          </li>
-          <li>
-            <strong>Non-archival papers.</strong>
-            Previously published work, preliminary research, or demos to be presented
-            at the workshop.
-          </li>
-        </ul>
-
-        <h6 id="anonymization">Anonymization</h6>
-        <p>
-          Archival submissions should be anonymized for double-blind review.
-          Please remove author names, affiliations, acknowledgements, and other identifying
-          information from the manuscript and supplementary material where appropriate.
-        </p>
-
-        <h6>Review criteria</h6>
-        <p>
-          Each paper will receive three reviews. Archival submissions will be evaluated primarily
-          for originality, technical soundness, completeness, and relevance to the workshop.
-          Non-archival and work-in-progress submissions will be evaluated primarily for relevance
-          to the workshop theme and their potential to stimulate discussion.
-        </p>
-
-        <h6>Presentation</h6>
-        <p>
-          Accepted contributions will be invited for presentation at the MINT workshop
-          co-located with EMNLP {{ page.year }} in Budapest, Hungary. Presentation formats
-          may include posters and selected talks, depending on the final program.
-        </p>
-
+        {% if page.cfp.extra_instructions %}
         {{ page.cfp.extra_instructions | markdownify }}
+        {% endif %}
       </div>
     </div>
   </div>

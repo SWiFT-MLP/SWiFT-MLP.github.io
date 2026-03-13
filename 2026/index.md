@@ -40,7 +40,6 @@ organizers:
     affiliation: Max Planck Institute for Psycholinguistics
     website: https://esamghaleb.github.io/
     image: Esam.png 
-    image: Bulat.jpg
   - name: Sho Akamine
     affiliation: Max Planck Institute for Psycholinguistics
     website: https://www.mpi.nl/people/akamine-sho
@@ -59,6 +58,46 @@ about: |
   Inspired by the earlier medal workshop on the automatic processing of multimodal interaction, SWiFT-MLP introduces participants to semi-automated pipelines for extracting body key points, segmenting gestures, transcribing speech, exporting annotations to analysis tools, and comparing multimodal signals across channels. The emphasis is on combining linguistic insight with practical computational methods.
 
   The workshop is especially well suited to the MMSYM community, bringing together perspectives from multimodal communication, linguistics, NLP, computer vision, and cognitive science. It aims to support researchers who need robust, transparent, and reusable workflows for studying embodied communication in interaction.
+
+schedule:
+  - time: "09:00 - 09:15"
+    title: "Introduction"
+    highlight: secondary
+
+  - time: "09:15 - 09:45"
+    title: "Setup of the environment and tools (Visual Studio Code, Miniconda, MediaPipe, WhisperX)"
+
+  - time: "09:45 - 10:45"
+    title: "Extracting body key points using MediaPipe"
+
+  - time: "10:45 - 11:00"
+    title: "Break"
+    highlight: light
+
+  - time: "11:00 - 12:15"
+    title: "Gesture segmentation and visualizing segmentation results in ELAN"
+
+  - time: "12:15 - 13:30"
+    title: "Lunch break"
+    highlight: light
+
+  - time: "13:30 - 13:45"
+    title: "Speech transcription using WhisperX"
+    highlight: secondary
+
+  - time: "13:45 - 15:00"
+    title: "Hands-on: Exporting transcriptions into ELAN"
+
+  - time: "15:00 - 15:15"
+    title: "Break"
+    highlight: light
+
+  - time: "15:15 - 16:30"
+    title: "Multimodal similarity analysis using kinematic and speech features"
+
+  - time: "16:30 - 17:00"
+    title: "Discussion, wrap-up, and next steps"
+    
 sponsors:
   - name: Multimodal Language Department (MLD), Max Planck Institute for Informatics
     url: https://www.mpi.nl/department/multimodal-language-department/23

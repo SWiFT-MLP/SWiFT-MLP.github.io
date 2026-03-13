@@ -4,8 +4,8 @@
       <div class="col-md-4" style="padding-top: 20px">
         <h5>Contact</h5>
         <p>
-          <a href="mailto:mint.organizers@gmail.com">
-            mint.organizers@gmail.com
+          <a href="mailto:dr.esam.ghaleb@gmail.com">
+            dr.esam.ghaleb@gmail.com
           </a>
         </p>
       </div>
@@ -29,7 +29,7 @@
         for edition in sorted_editions %}
         <p class="mb-1">
           <a href="/{{ edition.year }}"
-            >MINT Workshop @ {{ edition.location }}</a
+            >SWiFT-MLP Workshop @ {{ edition.location }}</a
           >
         </p>
         {% endfor %}
@@ -41,7 +41,7 @@
         <p class="mb-0">
           {% assign first_year = site.editions | map: "year" | sort | first %}
           {% assign last_year = site.editions | map: "year" | sort | last %}
-          &copy; {{ first_year }}–{{ last_year }} MINT Workshop. All rights
+          &copy; {{ first_year }}–{{ last_year }} SWiFT-MLP Workshop. All rights
           reserved.
         </p>
       </div>
