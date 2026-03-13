@@ -9,48 +9,33 @@ cover_image:
   image: "/assets/images/locations/Leuven.jpg"
 
 buttons:
-  - text: EMNLP 2026
-    url: https://2026.emnlp.org/
+  - text: MMSYM 2026
+    url: https://mmsym.org/
 
-cfp:
+program:
   intro: |
-    We invite submissions to **MINT: Multimodal Interaction in Face-to-Face Dialogue**.
-    The workshop brings together researchers from **computational linguistics, NLP,
-    computer vision, HCI, robotics, and cognitive science** working on multimodal
-    face-to-face communication.
+    **SWiFT-MLP** is a practical workshop centered on semi-automated workflows for multimodal language processing.
 
-    We welcome work on topics including:
+    The workshop combines short conceptual introductions with guided hands-on exercises. Participants will work through an end-to-end pipeline for preparing and analysing multimodal interaction data, with attention to both methodological choices and tool interoperability.
 
-    - computational models that integrate verbal and non-verbal cues such as speech,
-      text, gesture, facial expression, gaze, and body pose;
-    - cognitive and linguistic insights about face-to-face communication that can
-      inform AI systems;
-    - multimodal datasets with synchronised speech, video, and motion data;
-    - evaluation methods for multimodal interaction;
-    - applications and tools for embodied conversational agents, social robots,
-      annotation, and behavioural analysis.
+    The program covers topics such as:
 
-    We welcome both **archival** and **non-archival** contributions. Details on submission routes, formatting, review, and presentation are provided below.
+    - setting up a reproducible working environment for multimodal analysis;
+    - extracting body key points from video recordings;
+    - semi-automatic gesture segmentation;
+    - speech transcription and alignment from audiovisual data;
+    - exporting and organizing annotations in tools such as ELAN;
+    - multimodal similarity analysis using speech and kinematic features;
+    - practical discussion of workflow design, reusability, and limitations.
+
+    The format is intended to be interactive and accessible, with short presentations followed by live demonstrations, hands-on exercises, and discussion.
 
   dates:
-    - event: Paper submission deadline
-      date: Monday, June 1st, 2026
-    - event: Reviewing deadline
-      date: TBD
-    - event: Author notification
-      date: TBD
-    - event: Camera-ready deadline
-      date: Saturday, August 1st, 2026
-
+    - event: Workshop
+      date: Monday, September 8th, 2026
+    - event: Co-located symposium
+      date: MMSYM 2026, September 9th–11th, 2026
 organizers:
-  - name: Raquel Fernández
-    affiliation: University of Amsterdam
-    website: https://staff.fnwi.uva.nl/r.fernandezrovira/
-    image: Raquel.png
-  - name: Diego Frassinelli
-    affiliation: LMU Munich
-    website: https://www.ling.uni-konstanz.de/en/frassinelli/diego-frassinelli/
-    image: Diego.jpg
   - name: Esam Ghaleb
     affiliation: Max Planck Institute for Psycholinguistics
     website: https://esamghaleb.github.io/
@@ -62,77 +47,22 @@ organizers:
     image: Sho.jpg
 
 news:
-  - content: MINT has been accepted as a workshop at EMNLP 2026.
-    date: 2026-02-20
-    url: https://2026.emnlp.org/
+  - content: SWiFT-MLP will be held at MMSYM 2026 in Leuven, Belgium, on September 8th, 2026.
+    date: 2026-03-01
+    url: https://mmsym.org/
 
 about: |
-  **MINT: Multimodal Interaction in Face-to-Face Dialogue** is a new workshop on
-  modelling, generating, and understanding multimodal verbal and non-verbal
-  behaviour in face-to-face communication.
+  **SWiFT-MLP: Semi-Automated Workflows for Facilitating Multimodal Language Processing** is a hands-on workshop on practical, reproducible workflows for analysing multimodal communication.
 
-  Human communication is inherently multimodal: meaning is conveyed not only
-  through words and speech, but also through **prosody, gesture, facial
-  expression, gaze, and body pose**. Yet much multimodal NLP still treats these
-  signals as peripheral context or as outputs generated only after linguistic
-  content has already been decided. MINT addresses this gap by focusing on
-  multimodal interaction as a core part of communication.
+  The workshop is designed for researchers and students who work with video, audio, speech, gesture, gaze, facial expression, and other embodied signals, and who want to move from raw multimodal recordings to structured annotations and analysable representations. Rather than focusing primarily on end-task modelling, SWiFT-MLP foregrounds the intermediate workflows that make multimodal language processing possible in practice.
 
-  The workshop aims to bring together researchers across **computational
-  linguistics, NLP, computer vision, cognitive science, HCI, and robotics** to
-  study the resources, modelling approaches, processing methods, and evaluation
-  strategies needed for face-to-face dialogue.
+  Inspired by the earlier medal workshop on the automatic processing of multimodal interaction, SWiFT-MLP introduces participants to semi-automated pipelines for extracting body key points, segmenting gestures, transcribing speech, exporting annotations to analysis tools, and comparing multimodal signals across channels. The emphasis is on combining linguistic insight with practical computational methods.
 
-  We are particularly interested in work that connects insights about **human
-  multimodal communication** with the development of **AI systems that interact
-  with humans or simulate human-like behaviour**. This includes research on new
-  datasets, multimodal learning methods, embodied agents, social robots, and
-  evaluation frameworks for naturalistic interaction.
-  
+  The workshop is especially well suited to the MMSYM community, bringing together perspectives from multimodal communication, linguistics, NLP, computer vision, and cognitive science. It aims to support researchers who need robust, transparent, and reusable workflows for studying embodied communication in interaction.
 sponsors:
   - name: Multimodal Language Department (MLD), Max Planck Institute for Informatics
     url: https://www.mpi.nl/department/multimodal-language-department/23
     image: MLD.jpg
 
-program_committee:
-  - name: Justine Cassell
-    affiliation: INRIA & École Polytechnique
-  - name: Kerstin Fischer
-    affiliation: University of Southern Denmark
-  - name: Rada Mihalcea
-    affiliation: University of Michigan
-  - name: Patrizia Paggio
-    affiliation: University of Malta
-  - name: Catherine Pelachaud
-    affiliation: Sorbonne University
-  - name: Hayley Hung
-    affiliation: TU Delft
-  - name: Gabriel Skantze
-    affiliation: KTH Royal Institute of Technology
-  - name: David Schlangen
-    affiliation: University of Potsdam
-  - name: Taras Kucherenko
-    affiliation: Electronic Arts
-  - name: Petra Wagner
-    affiliation: Bielefeld University
-  - name: Dirk Heylen
-    affiliation: University of Twente
-  - name: Pat Healey
-    affiliation: Queen Mary University of London
-  - name: Hendrik Buschmeier
-    affiliation: Bielefeld University
-  - name: Casey Kennington
-    affiliation: Boise State University
-  - name: Rachel McDonnell
-    affiliation: Trinity College Dublin
-  - name: Stefan Kopp
-    affiliation: Bielefeld University
-  - name: Ruben Janssens
-    affiliation: Ghent University
-  - name: Ilya Burenko
-    affiliation: TU Dresden
-  - name: Martijn Vastenburg
-    affiliation: Radboud University
-  - name: Chinmaya Mishra
-    affiliation: Max Planck Institute for Psycholinguistics
+
 ---
