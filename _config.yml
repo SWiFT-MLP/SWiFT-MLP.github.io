@@ -16,6 +16,9 @@ exclude:
   - node_modules
   - vendor
 
+cfp:
+  registration_link: "https://example.com/register"
+
 social:
   email: dr.esam.ghaleb@gmail.com
 
