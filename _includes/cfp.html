@@ -25,12 +25,12 @@
         {% endif %}
 
         {% if page.cfp.registration_link %}
-        <p>
           {% assign btn_text = page.cfp.registration_text | default: 'Register here' %}
-          <a href="{{ page.cfp.registration_link | escape }}" class="btn btn-custom btn-xs" target="_blank" rel="noopener noreferrer">
-            {{ btn_text }}
-          </a>
-        </p>
+          <p>
+            <a href="{{ page.cfp.registration_link | escape }}" class="btn btn-custom btn-xs" target="_blank" rel="noopener noreferrer">
+              {{ btn_text }}
+            </a>
+          </p>
         {% endif %}
 
         {% if page.cfp.extra_instructions %}
