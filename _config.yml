@@ -17,7 +17,7 @@ exclude:
   - vendor
 
 cfp:
-  registration_link: "https://example.com/register"
+  registration_link: "https://survey.academiccloud.de/f/435484?lang=en"
 
 social:
   email: dr.esam.ghaleb@gmail.com
