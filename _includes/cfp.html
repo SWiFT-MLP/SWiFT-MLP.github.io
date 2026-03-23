@@ -29,8 +29,9 @@ cfp:
 
         {% if page.cfp.registration_link %}
         <p>
-          <a href="{{ page.cfp.registration_link }}" class="btn btn-custom btn-xs" target="_blank">
-            Register here
+          {% assign btn_text = page.cfp.registration_text | default: 'Register here' %}
+          <a href="{{ page.cfp.registration_link | escape }}" class="btn btn-custom btn-xs" target="_blank" rel="noopener noreferrer">
+            {{ btn_text }}
           </a>
         </p>
         {% endif %}
