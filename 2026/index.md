@@ -41,18 +41,17 @@ organizers:
   - name: Esam Ghaleb
     affiliation: Max Planck Institute for Psycholinguistics
     website: https://esamghaleb.github.io/
-    image: Esam.png 
+    image: Esam.png
   - name: Sho Akamine
     affiliation: Max Planck Institute for Psycholinguistics
     website: https://www.mpi.nl/people/akamine-sho
     image: Sho.jpg
-  - name: Raquel Fernández
-    affiliation: Universitat of Amsterdam
-    website: https://staff.fnwi.uva.nl/r.fernandezrovira/
-    image: Raquel.png
 
 acknowledgment: |
-  This workshop builds upon an earlier version developed for the MEDAL Summer School, which was jointly organized with **Raquel Fernández**. We gratefully acknowledge her contributions to the foundational workshop design and curriculum.
+  This workshop builds upon an earlier version developed for the MEDAL Summer School, which was jointly organized with **Raquel Fernández**.
+
+acknowledgment_image: "/assets/images/organizers/Raquel.png"
+acknowledgment_image_alt: "Raquel Fernández"
 
 news:
   - content: SWiFT-MLP will be held at MMSYM 2026 in Leuven, Belgium, on September 8th, 2026.

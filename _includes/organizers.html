@@ -16,10 +16,11 @@
               {% if organizer.website %}
               <a href="{{ organizer.website }}" target="_blank">
                 {% endif %}
+                {% assign organizer_avatar = organizer.icon | default: organizer.image %}
                 <img
-                  src="{{ '/assets/images/organizers/' | append: organizer.image | relative_url }}"
+                  src="{{ organizer_avatar | relative_url }}"
                   alt="{{ organizer.name }}"
-                  class="img-fluid"
+                  class="organizer-avatar img-fluid"
                 />
                 <h6>{{ organizer.name }}</h6>
                 {% if organizer.website %}
@@ -35,10 +36,18 @@
 
     {% if page.acknowledgment %}
     <div class="row justify-content-center">
-      <div class="col-md-8 custom-lg-6" style="margin-top: 30px; padding-top: 30px; border-top: 1px solid #ddd;">
+      <div class="col-md-8 custom-lg-6" style="margin-top: 30px; padding-top: 30px; border-top: 1px solid #ddd; text-align: center;">
         <div class="acknowledgment-text">
           {{ page.acknowledgment | markdownify }}
         </div>
+        {% if page.acknowledgment_image %}
+        <img
+          src="{{ page.acknowledgment_image | relative_url }}"
+          alt="{{ page.acknowledgment_image_alt | default: 'Acknowledged contributor' }}"
+          class="img-fluid"
+          style="max-width: 180px; margin-top: 15px; border-radius: 50%;"
+        />
+        {% endif %}
       </div>
     </div>
     {% endif %}

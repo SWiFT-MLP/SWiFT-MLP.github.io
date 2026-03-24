@@ -17,6 +17,21 @@ section {
     max-width: 1200px;
     margin: 0 auto;
   }
+
+  .organizer-avatar {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+    border: 2px solid $primary-color;
+    box-shadow: 0 2px 8px rgba($text-color, 0.12);
+    transition: transform 0.2s ease;
+  }
+
+  .organizer-avatar:hover {
+    transform: translateY(-2px) scale(1.03);
+  }
 }
 
 #dates,
