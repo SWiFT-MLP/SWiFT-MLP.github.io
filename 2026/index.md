@@ -50,7 +50,7 @@ organizers:
     icon: /assets/images/organizers/Sho.jpg
 
 acknowledgment: |
-  This workshop builds upon an earlier version developed for the MEDAL Summer School, which was jointly organized with **[Raquel Fernández](https://staff.fnwi.uva.nl/r.fernandezrovira/)**.
+  This workshop builds upon an earlier version developed for the MEDAL Summer School, which was jointly organized with **[Raquel Fernández](https://staff.fnwi.uva.nl/r.fernandezrovira/)** (Universitat of Amsterdam).
 
 acknowledgment_image: "/assets/images/organizers/Raquel.png"
 acknowledgment_image_alt: "Raquel Fernández"
