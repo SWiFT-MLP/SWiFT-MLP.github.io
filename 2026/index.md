@@ -50,7 +50,7 @@ organizers:
     icon: /assets/images/organizers/Sho.jpg
 
 acknowledgment: |
-  This workshop builds upon an earlier version developed for the MEDAL Summer School, which was jointly organized with **Raquel Fernández**.
+  This workshop builds upon an earlier version developed for the MEDAL Summer School, which was jointly organized with **[Raquel Fernández](https://staff.fnwi.uva.nl/r.fernandezrovira/)**.
 
 acknowledgment_image: "/assets/images/organizers/Raquel.png"
 acknowledgment_image_alt: "Raquel Fernández"
@@ -96,7 +96,7 @@ schedule:
 
   - time: "13:30 - 13:45"
     title: "Speech transcription using WhisperX"
-    highlight: secondary
+    highlight: primary
 
   - time: "13:45 - 15:00"
     title: "Hands-on: Exporting transcriptions into ELAN"
