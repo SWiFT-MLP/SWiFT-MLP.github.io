@@ -68,6 +68,7 @@ schedule:
 
   - time: "09:15 - 09:45"
     title: "Setup of the environment and tools (Visual Studio Code, Miniconda, MediaPipe, WhisperX)"
+    highlight: primary
 
   - time: "09:45 - 10:45"
     title: "Extracting body key points using MediaPipe"
@@ -78,6 +79,7 @@ schedule:
 
   - time: "11:00 - 12:15"
     title: "Gesture segmentation and visualizing segmentation results in ELAN"
+    highlight: primary
 
   - time: "12:15 - 13:30"
     title: "Lunch break"
@@ -89,6 +91,7 @@ schedule:
 
   - time: "13:45 - 15:00"
     title: "Hands-on: Exporting transcriptions into ELAN"
+    highlight: primary
 
   - time: "15:00 - 15:15"
     title: "Break"
@@ -99,11 +102,12 @@ schedule:
 
   - time: "16:30 - 17:00"
     title: "Discussion, wrap-up, and next steps"
+    highlight: secondary
     
 sponsors:
-  - name: Multimodal Language Department (MLD), Max Planck Institute for Informatics
+  - name: Multimodal Language Department (MLD), Max Planck Institute for Psycholinguistics
     url: https://www.mpi.nl/department/multimodal-language-department/23
-    image: MLD.jpg
+    image: MPI.png
 
 
 ---
