@@ -32,6 +32,14 @@
   &:active {
     transform: translateY(0);
   }
+
+  // Make a slightly larger variant for sections that need emphasis
+  &.btn-lg,
+  .btn-lg & {
+    padding: $spacing-unit * 2 $spacing-unit * 3;
+    font-size: 1.12rem;
+    min-width: 200px;
+  }
 }
 
 // Secondary button (dark)
