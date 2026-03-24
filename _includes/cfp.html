@@ -11,21 +11,20 @@
           {{ page.cfp.intro | markdownify }}
         {% else %}
         <p>
-          Registration for <strong>SWiFT-MLP: Semi-Automated Workflows for Facilitating Multimodal Language Processing</strong>
-          is available through the link below.
+          Application for <strong>SWiFT-MLP: Semi-Automated Workflows for Facilitating Multimodal Language Processing</strong>
+          is now open! The application will close on <strong>May 15, 2026</strong>. We will accept a maximum of <strong>20 participants</strong>.
         </p>
         <p>
-          A small registration fee will be charged to help cover food, drinks
-          (coffee and tea), and snacks during the workshop.
+          A registration fee of <strong>100 euros</strong> will be charged. The cost includes training, coffee breaks, lunch, and a social event in the evening.
         </p>
         <p>
-          Space is limited, and we will accept a maximum of <strong>20 participants</strong>.
-          We therefore encourage early registration.
+          Official registration and payment are due after applicants have been selected and have received a confirmation email. 
+          The confirmation email will be sent by the end of May.
         </p>
         {% endif %}
 
         {% if page.cfp.registration_link %}
-          {% assign btn_text = page.cfp.registration_text | default: 'Register here' %}
+          {% assign btn_text = page.cfp.registration_text | default: 'Apply here' %}
           <p class="text-center">
             <a href="{{ page.cfp.registration_link | escape }}" class="btn btn-custom btn-lg" target="_blank" rel="noopener noreferrer">
               {{ btn_text }}
