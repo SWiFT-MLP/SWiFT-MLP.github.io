@@ -32,5 +32,15 @@
         </div>
       </div>
     </div>
+
+    {% if page.acknowledgment %}
+    <div class="row justify-content-center">
+      <div class="col-md-8 custom-lg-6" style="margin-top: 30px; padding-top: 30px; border-top: 1px solid #ddd;">
+        <div class="acknowledgment-text">
+          {{ page.acknowledgment | markdownify }}
+        </div>
+      </div>
+    </div>
+    {% endif %}
   </div>
 </section>
