@@ -42,10 +42,12 @@ organizers:
     affiliation: Max Planck Institute for Psycholinguistics
     website: https://esamghaleb.github.io/
     image: Esam.png
+    icon: /assets/images/organizers/Esam.png
   - name: Sho Akamine
     affiliation: Max Planck Institute for Psycholinguistics
     website: https://www.mpi.nl/people/akamine-sho
     image: Sho.jpg
+    icon: /assets/images/organizers/Sho.jpg
 
 acknowledgment: |
   This workshop builds upon an earlier version developed for the MEDAL Summer School, which was jointly organized with **Raquel Fernández**.
