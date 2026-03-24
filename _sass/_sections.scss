@@ -91,24 +91,25 @@ section {
       background-color: #fffaf5;
     }
 
-    // Break and light-colored rows (Breaks, Lunch)
+    // Light gray for breaks and rest periods
     tbody tr.table-light {
       background-color: #e8e8e8;
       font-weight: 500;
       color: $text-color;
     }
 
-    // Secondary color (Introduction, special sessions)
+    // Soft blue for conceptual/intro sessions
     tbody tr.table-secondary {
-      background-color: $secondary-color;
-      color: darken($text-color, 10%);
+      background-color: #d4e8f7;
+      color: darken($text-color, 5%);
       font-weight: 500;
     }
 
-    // Primary color accent for certain items
+    // Soft green for hands-on/practical sessions
     tbody tr.table-primary {
-      background-color: rgba($primary-color, 0.08);
-      border-left: 4px solid $primary-color;
+      background-color: #d4f0e0;
+      color: darken($text-color, 5%);
+      font-weight: 500;
     }
   }
 }

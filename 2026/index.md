@@ -72,6 +72,7 @@ schedule:
 
   - time: "09:45 - 10:45"
     title: "Extracting body key points using MediaPipe"
+    highlight: primary
 
   - time: "10:45 - 11:00"
     title: "Break"
@@ -99,6 +100,7 @@ schedule:
 
   - time: "15:15 - 16:30"
     title: "Multimodal similarity analysis using kinematic and speech features"
+    highlight: primary
 
   - time: "16:30 - 17:00"
     title: "Discussion, wrap-up, and next steps"
