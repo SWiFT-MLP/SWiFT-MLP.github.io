@@ -70,7 +70,7 @@ about: |
     - automatically segment manual gestures
     - automatically transcribe speech using WhisperX
     - export annotations to common analysis tools (e.g., Praat, ELAN)
-    - compare signals across modalities (e.g., speech, gesture, gaze) and analyze gesture kinematics
+    - compare signals across modalities (e.g., speech, gesture) and analyze gesture kinematics
     
   The workshop is especially well-suited to the MMSYM community, bringing together perspectives from multimodal communication, linguistics, NLP, computer vision, and cognitive science. It aims to support researchers who need robust, transparent, and reusable workflows for studying embodied communication in interaction.
   
