@@ -61,13 +61,19 @@ news:
     url: https://mmsym.org/
 
 about: |
-  **SWiFT-MLP: Semi-Automated Workflows for Facilitating Multimodal Language Processing** is a hands-on workshop on practical, reproducible workflows for analysing multimodal communication.
+  **SWiFT-MLP: Semi-Automated Workflows for Facilitating Multimodal Language Processing** is a hands-on workshop on practical, reproducible workflows for analyzing multimodal communication.
 
-  The workshop is designed for researchers and students who work with video, audio, speech, gesture, gaze, facial expression, and other embodied signals, and who want to move from raw multimodal recordings to structured annotations and analysable representations. Rather than focusing primarily on end-task modelling, SWiFT-MLP foregrounds the intermediate workflows that make multimodal language processing possible in practice.
+  It is designed for researchers and students working with audio/video data who want to use new technology to facilitate speech/gesture annotation and analyze gesture kinematics.
 
-  Inspired by the earlier medal workshop on the automatic processing of multimodal interaction, SWiFT-MLP introduces participants to semi-automated pipelines for extracting body key points, segmenting gestures, transcribing speech, exporting annotations to analysis tools, and comparing multimodal signals across channels. The emphasis is on combining linguistic insight with practical computational methods.
-
-  The workshop is especially well suited to the MMSYM community, bringing together perspectives from multimodal communication, linguistics, NLP, computer vision, and cognitive science. It aims to support researchers who need robust, transparent, and reusable workflows for studying embodied communication in interaction.
+  Building on the earlier MEDAL workshop on automatic processing of multimodal interaction, SWiFT-MLP introduces semi-automated pipelines to:
+    - automatically extract body keypoints using MediaPipe
+    - automatically segment manual gestures
+    - automatically transcribe speech using WhisperX
+    - export annotations to common analysis tools (e.g., Praat, ELAN)
+    - compare signals across modalities (e.g., speech, gesture) and analyze gesture kinematics
+    
+  The workshop is especially well-suited to the MMSYM community, bringing together perspectives from multimodal communication, linguistics, NLP, computer vision, and cognitive science. It aims to support researchers who need robust, transparent, and reusable workflows for studying embodied communication in interaction.
+  
 
 schedule:
   - time: "09:00 - 09:15"
