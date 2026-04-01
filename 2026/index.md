@@ -8,7 +8,7 @@ cfp:
   registration_link: "https://survey.academiccloud.de/f/435484?lang=en"
 
 cover_image:
-  image: "/assets/images/locations/Leuven.jpg"
+  image: "/assets/images/locations/SWIFT_landscape_model_holistic_mediapipe.png"
 
 buttons:
   - text: MMSYM 2026
