@@ -5,7 +5,7 @@ date: Workshop date 8th of September (co-located with Symposium Series on Multim
 location: MMSYM 2026 in Leuven, Belgium
 show_cfp: true
 cfp:
-  registration_link: "https://survey.academiccloud.de/f/435484?lang=en"
+  registration_link:
 
 cover_image:
   image: "/assets/images/locations/SWIFT_landscape_model_holistic_mediapipe_jpg.jpg"
