@@ -3,7 +3,7 @@ layout: workshop
 year: 2026
 date: Workshop date 8th of September (co-located with Symposium Series on Multimodal Communication, 9-11 September 2026)
 location: MMSYM 2026 in Leuven, Belgium
-show_cfp: false
+show_cfp: true
 cfp:
   registration_link: "https://survey.academiccloud.de/f/435484?lang=en"
 
