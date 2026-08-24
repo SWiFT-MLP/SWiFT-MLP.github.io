@@ -76,47 +76,47 @@ about: |
   
 
 schedule:
-  - time: "09:00 - 09:15"
-    title: "Introduction"
+  - time: "09:30 - 09:45"
+    title: "Welcome and introduction"
     highlight: secondary
 
-  - time: "09:15 - 09:45"
-    title: "Setup of the environment and tools (Visual Studio Code, Miniconda, MediaPipe, WhisperX)"
-    highlight: primary
-
   - time: "09:45 - 10:45"
-    title: "Extracting body key points using MediaPipe"
+    title: "Setup of the environment (Visual Studio Code, Miniconda)"
     highlight: primary
 
   - time: "10:45 - 11:00"
     title: "Break"
     highlight: light
 
-  - time: "11:00 - 12:15"
-    title: "Gesture segmentation and visualizing segmentation results in ELAN"
+  - time: "11:00 - 11:45"
+    title: "Pose estimation using MediaPipe"
     highlight: primary
 
-  - time: "12:15 - 13:30"
+  - time: "11:45 - 13:00"
+    title: "Automatic gesture segmentation"
+    highlight: primary
+
+  - time: "13:00 - 14:00"
     title: "Lunch break"
     highlight: light
 
-  - time: "13:30 - 13:45"
-    title: "Speech transcription using WhisperX"
+  - time: "14:00 - 15:00"
+    title: "Automatic speech transcription using WhisperX"
     highlight: primary
 
-  - time: "13:45 - 15:00"
-    title: "Hands-on: Exporting transcriptions into ELAN"
+  - time: "15:00 - 15:45"
+    title: "Exporting transcripts into ELAN"
     highlight: primary
 
-  - time: "15:00 - 15:15"
+  - time: "15:45 - 16:15"
     title: "Break"
     highlight: light
 
-  - time: "15:15 - 16:30"
+  - time: "16:15 - 17:30"
     title: "Multimodal similarity analysis using kinematic and speech features"
     highlight: primary
 
-  - time: "16:30 - 17:00"
+  - time: "17:30 - 18:00"
     title: "Discussion, wrap-up, and next steps"
     highlight: secondary
     
